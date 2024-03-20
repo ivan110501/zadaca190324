@@ -6,6 +6,7 @@ type CountryType = {
     png: string;
     alt: string;
   };
+  languages: { hrv: string };
   borders: [];
   translations: CountryTranslations;
 };
@@ -46,6 +47,7 @@ const Croatia = () => {
         {" "}
         <div>CROATIA</div>
       </h1>
+      <h2>Language: {country?.languages.hrv}</h2>
       <div>
         <img src={country?.flags.png} alt="" />
       </div>
