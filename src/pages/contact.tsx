@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   useEffect(() => {
-    getData("croatia");
+    getData("France");
   }, []);
 
   return (

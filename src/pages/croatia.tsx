@@ -65,7 +65,7 @@ const Croatia = () => {
       </div>
       <h2>Translations:</h2>
       {country &&
-        Object.keys(country.translations).map((key: string, index) => {
+        Object.keys(country.translations).map((key: string) => {
           return (
             <>
               {" "}

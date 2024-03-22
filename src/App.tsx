@@ -6,6 +6,7 @@ import Contact from "./pages/contact";
 import NoMatch from "./pages/no-match";
 import Pokemon from "./pages/pokemon";
 import Croatia from "./pages/croatia";
+import Profile from "./pages/profile";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
 
           <Route path="pokemon" element={<Pokemon />} />
           <Route path="croatia" element={<Croatia />} />
+          <Route path="profile" element={<Profile />} />
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
                 routes for. */}
