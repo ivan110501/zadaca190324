@@ -30,9 +30,14 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.pfp {
+  width: 6rem;
+}
+
 //imports
 @import "./components/layout.scss";
 @import "./components/grid.scss";
 @import "./components/header.scss";
 @import "./components/nav.scss";
 @import "./profile.scss";
+@import "./components/links.scss";

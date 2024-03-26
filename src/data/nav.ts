@@ -5,24 +5,9 @@ export const navigationData: LinkType[] = [
     href: "/",
     label: "Home",
   },
+
   {
-    href: "/about",
-    label: "About",
-  },
-  {
-    href: "/contact",
-    label: "Contact",
-  },
-  {
-    href: "/pokemon",
-    label: "Pokemon",
-  },
-  {
-    href: "/croatia",
-    label: "Croatia",
-  },
-  {
-    href: "/profile",
-    label: "Profile",
+    href: "/vjezbe",
+    label: "Vjezbe",
   },
 ];
