@@ -61,7 +61,6 @@ const DataTypes = () => {
       gender: !profile.gender,
     };
 
-    newGender.gender = !newGender.gender;
     setProfile(newGender);
   };
   return (
@@ -142,7 +141,7 @@ const DataTypes = () => {
 
         <div>{profile.lastName}</div>
         <div>{profile.age}</div>
-        <Button>Change gender</Button>
+        <Button onClick={() => ChangeGender()}>Change gender</Button>
         <div>{profile.gender ? "Muskarac" : "Zena"}</div>
         <div>
           <img className="pfp" src={profile.profilePicture} alt="pfp" />
@@ -169,6 +168,13 @@ const DataTypes = () => {
       <h1>Boolean</h1>
 
       <div>Wc: {wc ? "Ima" : "Nema"}</div>
+      <Button
+        onClick={() => {
+          setWc(!wc);
+        }}
+      >
+        Call toi toi{" "}
+      </Button>
     </>
   );
 };
